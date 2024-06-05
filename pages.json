@@ -3,43 +3,58 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText" : "",
-				"enablePullDownRefresh" : false,
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
 				"navigationStyle": "custom"
 			}
 		},
 		{
-			"path" : "pages/index/activity",
+			"path": "pages/index/activity",
 			"style": {
-				"navigationBarTitleText" : "",
-				"enablePullDownRefresh" : false,
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
 				"navigationStyle": "custom"
 			}
 		},
 		{
-			"path" : "pages/index/my",
+			"path": "pages/index/my",
 			"style": {
-				"navigationBarTitleText" : "",
-				"enablePullDownRefresh" : false,
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
 				"navigationStyle": "custom"
 			}
 		},
 		{
-			"path" : "pages/components/rz",
+			"path": "pages/components/rz",
+			"style": {
+				"navigationBarTitleText": "认证",
+				"navigationBarBackgroundColor": "#01ACFE",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/components/fbxm",
+			"style": {
+				"navigationBarTitleText": "发布项目",
+				"navigationBarBackgroundColor": "#01ACFE",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/components/gywm",
+			"style": {
+				"navigationBarTitleText": "咨询",
+				"navigationBarBackgroundColor": "#01ACFE",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "pages/components/zy",
 			"style" : 
 			{
-				"navigationBarTitleText" : "认证",
-				"navigationBarBackgroundColor":"#01ACFE",
-				"navigationBarTextStyle":"white"
-			}
-		},
-		{
-			"path" : "pages/components/fbxm",
-			"style" : 
-			{
-				"navigationBarTitleText" : "发布项目",
-				"navigationBarBackgroundColor":"#01ACFE",
-				"navigationBarTextStyle":"white"
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
 			}
 		}
 	],

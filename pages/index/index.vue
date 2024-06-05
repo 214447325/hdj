@@ -29,7 +29,7 @@
 			<view class="content_tjxm">
 				<view class="content_tjxm_title">
 					<view class="content_tjxm_left">推荐项目</view>
-					<view class="content_tjxm_right">更多></view>
+					<view class="content_tjxm_right">更多</view>
 				</view>
 
 				<view class="content_xm">

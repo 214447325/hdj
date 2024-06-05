@@ -4,10 +4,10 @@
 		<view class="activity_box">
 			<view class="content_tjxm_title">
 				<view class="content_tjxm_left">推荐项目</view>
-				<view class="content_tjxm_right">更多></view>
+				<view class="content_tjxm_right">更多</view>
 			</view>
 
-			<view class="activity_boxs">
+			<view class="activity_boxs" @click="clickDetail">
 				<image src="../../static/icons/hd11.png" class="hd"></image>
 				<view class="activity_boxs1">
 					<view class="content_xm_title">直播项目融资活动</view>
@@ -16,7 +16,7 @@
 				</view>
 			</view>
 
-			<view class="activity_boxs">
+			<view class="activity_boxs" @click="clickDetail">
 				<image src="../../static/icons/hd12.png" class="hd"></image>
 				<view class="activity_boxs1">
 					<view class="content_xm_title">直播项目融资活动</view>
@@ -28,10 +28,10 @@
 
 			<view class="content_tjxm_title">
 				<view class="content_tjxm_left">活动场地</view>
-				<view class="content_tjxm_right">更多></view>
+				<view class="content_tjxm_right">更多</view>
 			</view>
 
-			<view class="activity_boxs">
+			<view class="activity_boxs" @click="clickDetail">
 				<image src="../../static/icons/hd13.png" class="hd"></image>
 				<view class="activity_boxs1">
 					<view class="content_xm_title">复地-北城中心</view>
@@ -40,7 +40,7 @@
 				</view>
 			</view>
 
-			<view class="activity_boxs">
+			<view class="activity_boxs" @click="clickDetail">
 				<image src="../../static/icons/hd14.png" class="hd"></image>
 				<view class="activity_boxs1">
 					<view class="content_xm_title">复地-北城中心</view>
@@ -62,7 +62,11 @@
 			}
 		},
 		methods: {
-
+			clickDetail() {
+				uni.navigateTo({
+					url:'/pages/components/gywm'
+				})
+			}
 		}
 	}
 </script>
