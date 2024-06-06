@@ -15,11 +15,11 @@
 					<image src="../../static/icons/book.png" class="tabs_icon"></image>
 					<view class="tabs_content">项目转让</view>
 				</view>
-				<view class="content_tabs_box">
+				<view class="content_tabs_box" @click="sgf">
 					<image src="../../static/icons/sgf.png" class="tabs_icon"></image>
 					<view class="tabs_content">收购方</view>
 				</view>
-				<view class="content_tabs_box">
+				<view class="content_tabs_box" @click="hyzx">
 					<image src="../../static/icons/hyzx.png" class="tabs_icon"></image>
 					<view class="tabs_content">行业资讯</view>
 				</view>
@@ -100,7 +100,17 @@
 		methods: {
 			fbxms() {
 				uni.navigateTo({
-					url:'/pages/components/fbxm'
+					url: '/pages/components/fbxm'
+				})
+			},
+			sgf() {
+				uni.navigateTo({
+					url: '/pages/components/zy'
+				})
+			},
+			hyzx() {
+				uni.switchTab({
+					url: '/pages/index/activity'
 				})
 			}
 		}

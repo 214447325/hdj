@@ -43,7 +43,7 @@
 		{
 			"path": "pages/components/gywm",
 			"style": {
-				"navigationBarTitleText": "咨询",
+				"navigationBarTitleText": "资讯",
 				"navigationBarBackgroundColor": "#01ACFE",
 				"navigationBarTextStyle": "white"
 			}
