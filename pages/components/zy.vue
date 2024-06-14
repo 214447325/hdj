@@ -7,10 +7,10 @@
 		<view class="content_nr">
 			<view class="content_ss_box">
 				<image src="../../static/icons/fdj.png" class="fdj"></image>
-				<input type="text" placeholder="关键词搜索项目" class="inputs" />
+				<input type="text" placeholder="关键词搜索收购方" class="inputs" />
 			</view>
 
-			<view class='zy_box'>
+			<!-- <view class='zy_box'>
 				<view class="zy1">
 					<image src="../../static/icons/tx.png" class="tx1"></image>
 					<view class="zy1_name">陈鹏</view>
@@ -96,6 +96,37 @@
 				</view>
 
 
+			</view> -->
+
+			<view class="zy_box">
+
+				<view class="zy_box1">
+					<view class="zy_title1">
+						海信集团有限公司
+						<text class="zy_splice">-</text>
+						<text class="qyxx">企业信息</text>
+					</view>
+					<view class="zy_children_title">1979年成立 小微企业 开业</view>
+					<view class="zy_contentsd">
+						<view class="zy_c_left">
+							<image class="zy_c_image" src="https://gimg3.baidu.com/search/src=https%3A%2F%2Fzhengxin-pub.cdn.bcebos.com%2Flogopic%2F447480221f376151f576c2d9e738938c_fullsize.jpg&refer=http%3A%2F%2Fwww.baidu.com&app=2021&size=w256&n=0&g=0n&q=100&fmt=auto?sec=1718470800&t=c52034a3225476494fc8250b3079189f"></image>
+							<view class="zy_c_info">
+								<view class="zy_c_info1">法定代表人：郭进</view>
+								<view class="zy_c_info2">企业已认领</view>
+							</view>
+						</view>
+						<view class="zy_c_right">
+							<button class="lxs">联系</button>
+						</view>
+					</view>
+					
+					<view class="zy_c_info1">注册资本：80617万元</view>
+					<view class="zy_c_info1">企业地址：青岛市市南区东海西路17号</view>
+					<view class="zy_c_info1">经营范围：国有资产委托营运...</view>
+					
+				</view>
+
+
 			</view>
 
 
@@ -117,6 +148,95 @@
 </script>
 
 <style scoped>
+	.zy_c_info2 {
+		width: fit-content;
+		height: auto;
+		font-size: 26rpx;
+		border: 1px solid rgba(51, 102, 255, 0.5);
+		box-sizing: border-box;
+		padding: 10rpx;
+		border-radius: 10rpx;
+		color: rgb(51, 102, 255);
+	}
+	
+	.zy_c_info1 {
+		font-size: 26rpx;
+		color: #33;
+		margin-bottom: 10rpx;
+	}
+	.zy_c_info {
+		width: 100%;
+		height: auto;
+		display: flex;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-left: 20rpx;
+	}
+	.zy_c_image {
+		width: 160rpx;
+		height: 160rpx;
+		border-radius: 20rpx;
+		flex-shrink: 0;
+	}
+	.zy_c_left {
+		width: 100%;
+		height: auto;
+		display: flex;
+		align-items: center;
+	}
+	
+	uni-button:after{
+		border: 0;
+	}
+	.lxs {
+		width: 160rpx;
+		height: 60rpx;
+		line-height: 60rpx;
+		font-size: 28rpx;
+		flex-shrink: 0;
+		border: 0;
+		background: #e8f7ff;
+		color:#36f ;
+	}
+	.zy_contentsd {
+		width: 100%;
+		height: auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 10rpx 0;
+	}
+
+	.zy_children_title {
+		font-size: 26rpx;
+		color: #333;
+		margin: 20rpx 0;
+	}
+
+	.qyxx {
+		color: #2440b3;
+	}
+
+	.zy_splice {
+		font-weight: bolder;
+		color: #444;
+		margin: 0 10rpx;
+		/* font-size: ; */
+	}
+
+	.zy_box1 {
+		width: 100%;
+		height: auto;
+	}
+
+	.zy_title1 {
+		width: 100%;
+		height: auto;
+		font-size: 36rpx;
+		color: #f73131;
+	}
+
 	.content {
 		width: 100%;
 		height: 100%;
@@ -152,7 +272,7 @@
 		width: 100%;
 		height: 100%;
 		box-sizing: border-box;
-		padding: 20rpx;
+		padding: 40rpx;
 		/* background: red; */
 	}
 
@@ -181,7 +301,7 @@
 		width: 100%;
 		height: auto;
 		box-sizing: border-box;
-		padding: 20rpx;
+		padding: 40rpx;
 		box-shadow: 0 0 15px 0 rgba(204, 204, 204, .8);
 		margin-top: 40rpx;
 		border-radius: 5px;
@@ -297,7 +417,8 @@
 		font-size: 28rpx;
 		color: #01ACFE;
 	}
-	.zy5_right1{
+
+	.zy5_right1 {
 		width: 280rpx;
 		height: auto;
 		display: flex;
@@ -306,7 +427,7 @@
 		color: #01ACFE;
 		justify-content: end;
 	}
-	
+
 
 	.zs {
 		width: 30rpx;
@@ -319,7 +440,7 @@
 		color: #000000;
 		margin-right: 10rpx;
 	}
-	
+
 	.xx {
 		width: 30rpx;
 		height: 30rpx;

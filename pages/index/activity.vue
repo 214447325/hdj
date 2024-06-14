@@ -2,7 +2,7 @@
 	<view class="activity">
 		<view class="activity_title">资讯</view>
 		<view class="activity_box">
-			<view class="content_tjxm_title">
+			<!-- <view class="content_tjxm_title">
 				<view class="content_tjxm_left">推荐项目</view>
 				<view class="content_tjxm_right">更多</view>
 			</view>
@@ -47,9 +47,33 @@
 					<view class="content_xm1"></view>
 					<view class="content_xm1">余杭区连胜路3号期望名作D座4楼</view>
 				</view>
+			</view> -->
+
+
+			<view class="a_line">
+				<view class="a_title">02做社群就是做人</view>
+				<view class="a_time">2023-10-31</view>
 			</view>
-
-
+			
+			<view class="a_line">
+				<view class="a_title">步行者</view>
+				<view class="a_time">2023-10-31</view>
+			</view>
+			
+			<view class="a_line">
+				<view class="a_title">每周一贴</view>
+				<view class="a_time">2023-10-31</view>
+			</view>
+			<view class="a_line">
+				<view class="a_title">01建社群的5大条件</view>
+				<view class="a_time">2023-10-31</view>
+			</view>
+			<view class="a_line">
+				<view class="a_title">慧对接资源中心NO.9空间喜报</view>
+				<view class="a_time">2023-10-31</view>
+			</view>
+			
+			<view class="a_line1">慧对接（杭州）信息有限公司</view>
 		</view>
 	</view>
 </template>
@@ -64,7 +88,7 @@
 		methods: {
 			clickDetail() {
 				uni.navigateTo({
-					url:'/pages/components/gywm'
+					url: '/pages/components/gywm'
 				})
 			}
 		}
@@ -72,6 +96,35 @@
 </script>
 
 <style scoped>
+	.a_line1 {
+		width: fit-content;
+		height: auto;
+		margin: 20rpx auto;
+		font-size: 26rpx;
+		color: rgb(1, 172, 254);
+	}
+	.a_line {
+		width: 100%;
+		height: 60rpx;
+		/* background: red; */
+		border-bottom: 1px solid #B1BEBE;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		box-sizing: border-box;
+		font-size: 26rpx;
+
+	}
+	
+	.a_title {
+		color: #000000;
+		font-weight: bolder;
+	}
+	
+	.a_time {
+		color: #B1BEBE;
+	}
+
 	.activity {
 		width: 100%;
 		height: auto;
@@ -94,7 +147,7 @@
 		width: 100%;
 		height: auto;
 		box-sizing: border-box;
-		padding: 20rpx;
+		padding: 40rpx;
 	}
 
 	.content_tjxm_title {

@@ -70,7 +70,7 @@
 			</view>
 		</view>
 
-		<view class="lxfs">联系方式：18888888888</view>
+		<!-- <view class="lxfs">联系方式：18888888888</view> -->
 	</view>
 </template>
 

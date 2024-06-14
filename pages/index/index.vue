@@ -153,7 +153,7 @@
 		width: 100%;
 		height: 100%;
 		box-sizing: border-box;
-		padding: 20rpx;
+		padding: 40rpx;
 		/* background: red; */
 	}
 
@@ -183,7 +183,7 @@
 		height: auto;
 		/* background: red; */
 		display: flex;
-		/* justify-content: space-between; */
+		justify-content: space-between;
 		align-items: center;
 		margin-top: 20px;
 	}
@@ -194,7 +194,6 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		margin-right: 20px;
 	}
 
 	.tabs_icon {
