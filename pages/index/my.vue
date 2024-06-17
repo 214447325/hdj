@@ -16,10 +16,11 @@
 					<image src="../../static/icons/rz.png" class="tabs_icon"></image>
 					<view class="tabs_content">用户认证</view>
 				</view>
-				<!-- <view class="content_tabs_box">
-					<image src="../../static/icons/lxfs.png" class="tabs_icon"></image>
-					<view class="tabs_content">联系方式</view>
-				</view> -->
+				
+				<view class="content_tabs_box" @click="lxr">
+					<image src="../../static/icons/phone.png" class="tabs_icon"></image>
+					<view class="tabs_content">联系人</view>
+				</view>
 
 			</view>
 
@@ -40,6 +41,11 @@
 			yhrz(){
 				uni.navigateTo({
 					url:'/pages/components/rz'
+				})
+			},
+			lxr() {
+				uni.navigateTo({
+					url:'/pages/components/lxr'
 				})
 			}
 		}
@@ -103,7 +109,7 @@
 	}
 
 	.content_tabs_box {
-		width: fit-content;
+		width: 130rpx;
 		height: 100%;
 		display: flex;
 		flex-direction: column;

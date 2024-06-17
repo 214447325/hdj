@@ -56,6 +56,15 @@
 				"enablePullDownRefresh": false,
 				"navigationStyle": "custom"
 			}
+		},
+		{
+			"path" : "pages/components/lxr",
+			"style" : 
+			{
+				"navigationBarTitleText": "联系人",
+				"navigationBarBackgroundColor": "#01ACFE",
+				"navigationBarTextStyle": "white"
+			}
 		}
 	],
 	"globalStyle": {
